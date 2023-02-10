@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T19:19:05.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.20" etag="ADTKfdwdfmbsETLSFUV6" type="github"><diagram name="Page-1" id="M42Y_hGAYAV-ojaD1xyR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-10T22:59:36.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="w_Gp1hrDx6YvCcDYlqR1" version="20.8.20" type="github" pages="2">
+  <diagram name="AWS" id="M42Y_hGAYAV-ojaD1xyR">
+    <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oiB5dbNMjSqoMVg6hyyi-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="420" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="oiB5dbNMjSqoMVg6hyyi-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="190" y="80" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="oiB5dbNMjSqoMVg6hyyi-3" value="DATA CENTER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oiB5dbNMjSqoMVg6hyyi-4" value="SERVER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oiB5dbNMjSqoMVg6hyyi-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="340" width="270" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zoMqMEC0QQ8cZX7RPw97" name="CICD">
+    <mxGraphModel dx="934" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FAcdLf_1xPkFEoPYTSpw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="306" as="sourcePoint" />
+            <mxPoint x="70" y="236" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-3" value="&lt;u&gt;&lt;b&gt;GITHUB&lt;/b&gt;&lt;br&gt;&lt;/u&gt;&lt;br&gt;SRC&lt;br&gt;unit test&lt;br&gt;build script" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;" edge="1" parent="1" source="FAcdLf_1xPkFEoPYTSpw-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="170" as="sourcePoint" />
+            <mxPoint x="210" y="263.57142857142856" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-7" value="&lt;u style=&quot;font-weight: bold;&quot;&gt;MAVEN&lt;br&gt;&lt;/u&gt;&lt;br&gt;compile&lt;br&gt;validate&lt;br&gt;test&lt;br&gt;build package&lt;br&gt;(jar | &lt;b&gt;war &lt;/b&gt;| ear)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FAcdLf_1xPkFEoPYTSpw-7" target="FAcdLf_1xPkFEoPYTSpw-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="110" as="sourcePoint" />
+            <mxPoint x="450" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-10" value="&lt;b&gt;JENKINS&lt;br&gt;&lt;br&gt;IaC&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="250" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="160" as="sourcePoint" />
+            <mxPoint x="360" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-12" value="&lt;u style=&quot;font-weight: bold;&quot;&gt;NEXUS&lt;br&gt;&lt;/u&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;Artifactory&lt;br&gt;&lt;/u&gt;&lt;/b&gt;Backup the code&lt;br&gt;&lt;br&gt;(jar |&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;war&amp;nbsp;&lt;/b&gt;| ear)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-14" value="&lt;u style=&quot;font-weight: bold;&quot;&gt;SONARQUBE&lt;br&gt;&lt;/u&gt;&lt;br&gt;Quality analysis&lt;br&gt;Quality report" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="430" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FAcdLf_1xPkFEoPYTSpw-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="430" as="sourcePoint" />
+            <mxPoint x="315" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
