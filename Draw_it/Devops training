@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T23:38:07.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="YaWCQho9fk0n-36ymCrx" version="20.8.20" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-12T00:03:53.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0JjcP9wWjtsulyDnC52r" version="20.8.20" type="github" pages="3">
   <diagram id="zoMqMEC0QQ8cZX7RPw97" name="CICD">
     <mxGraphModel dx="2634" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -90,7 +90,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="CLOUD COMPUTING" id="M42Y_hGAYAV-ojaD1xyR">
-    <mxGraphModel dx="3477" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3650" dy="1049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -358,7 +358,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1UgcxrkBWZYgG2eGwgR9" name="AWS">
-    <mxGraphModel dx="2416" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2276" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -416,8 +416,8 @@
         <mxCell id="3xHgiMy_vpqdp4n94WKl-23" value="&lt;b&gt;DC 2&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-25">
           <mxGeometry x="357.5" y="90" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3xHgiMy_vpqdp4n94WKl-24" value="&lt;br&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Notice the isolation of the &lt;/span&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;AZs &lt;/b&gt;and &lt;b&gt;DCs - the&amp;nbsp;&lt;/b&gt;space between them&lt;br&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;This is to avoid a&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;b style=&quot;border-color: rgb(0, 0, 0); color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;SINGLE POINT OF FAILURE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="380" width="430" height="130" as="geometry" />
+        <mxCell id="3xHgiMy_vpqdp4n94WKl-24" value="&lt;p style=&quot;line-height: 80%; font-size: 15px;&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Notice the isolation of the &lt;/span&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;AZs &lt;/b&gt;and &lt;b&gt;DCs - the&amp;nbsp;&lt;/b&gt;space between them&lt;br&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;This is to avoid a&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;b style=&quot;border-color: rgb(0, 0, 0); color: rgb(240, 240, 240); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;SINGLE POINT OF FAILURE&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="380" width="490" height="130" as="geometry" />
         </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-26" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-660" y="-30" width="430" height="470" as="geometry" />
@@ -476,41 +476,38 @@
         <mxCell id="3xHgiMy_vpqdp4n94WKl-65" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-129" y="-26" width="549" height="433" as="geometry" />
         </mxCell>
-        <mxCell id="3xHgiMy_vpqdp4n94WKl-44" value="" style="whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#ffffff;strokeWidth=5;" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
+        <mxCell id="3xHgiMy_vpqdp4n94WKl-44" value="" style="whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
           <mxGeometry x="9" y="3" width="310" height="430" as="geometry" />
         </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-45" value="AWS NETWORK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
           <mxGeometry x="104" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-46" value="&lt;b&gt;CPU: 20G | MEM: 15Gi | HDD: 100GB&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
-          <mxGeometry x="11" y="114" width="250" height="69" as="geometry" />
+          <mxGeometry x="9" y="114" width="250" height="69" as="geometry" />
         </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-47" value="RESERVED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
           <mxGeometry x="84" y="178" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3xHgiMy_vpqdp4n94WKl-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3xHgiMy_vpqdp4n94WKl-65" source="3xHgiMy_vpqdp4n94WKl-48" target="3xHgiMy_vpqdp4n94WKl-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-48" value="EC2-A" style="whiteSpace=wrap;html=1;" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
-          <mxGeometry x="11" y="63" width="60" height="51" as="geometry" />
+          <mxGeometry x="9" y="63" width="60" height="51" as="geometry" />
         </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-49" value="EC2-B" style="whiteSpace=wrap;html=1;" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
-          <mxGeometry x="86" y="63" width="60" height="51" as="geometry" />
+          <mxGeometry x="84" y="63" width="60" height="51" as="geometry" />
         </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-50" value="EC2-C" style="whiteSpace=wrap;html=1;" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
-          <mxGeometry x="161" y="63" width="60" height="51" as="geometry" />
+          <mxGeometry x="159" y="63" width="60" height="51" as="geometry" />
         </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-51" value="EC2-A" style="whiteSpace=wrap;html=1;" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
-          <mxGeometry x="11" y="343" width="60" height="51" as="geometry" />
+          <mxGeometry x="9" y="343" width="60" height="51" as="geometry" />
         </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-52" value="EC2-C" style="whiteSpace=wrap;html=1;" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
-          <mxGeometry x="11" y="283" width="60" height="51" as="geometry" />
+          <mxGeometry x="9" y="283" width="60" height="51" as="geometry" />
         </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-54" value="ON-DEMAND" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
           <mxGeometry y="398" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-56" value="&lt;b&gt;CPU: 100G | MEM: 20G HDD: 200GB&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
-          <mxGeometry x="158" y="263" width="160" height="140" as="geometry" />
+          <mxGeometry x="159" y="263" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="3xHgiMy_vpqdp4n94WKl-57" value="SPOT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="3xHgiMy_vpqdp4n94WKl-65">
           <mxGeometry x="209" y="403" width="60" height="30" as="geometry" />
